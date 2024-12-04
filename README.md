@@ -29,11 +29,11 @@ This repository contains a simple neural network implemented in PyTorch to class
 | 28x28x1  | 3x3x1x8    | 26     |
 | 26x26x8  | 3x3x8x16   | 24     |
 | 24x24x16 | 1x1x16x8   | 24     |
-| Maxpool()             | 12     |
+| Maxpool()|            | 12     |
 | 12x12x8  | 3x3x8x16   | 10     |
 | 10x10x16 | 3x3x16x16  | 8      |
 | 8x8x16   | 3x3x16x16  | 6      |
-| AdaptiveAvgPool()     | 1      | 
+| AdaptiveAvgPool()|    | 1      | 
 | 1x1x16   | 1x1x16x10  | 1      |
 | Flatten()             |        | 
 
